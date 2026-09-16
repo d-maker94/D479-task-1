@@ -1,0 +1,22 @@
+A2Z VEYRA BETA 0.100 - EVALUATION TERMS
+
+This package is supplied to the A2Z.Tools project owner for development,
+editing, installation, private evaluation and internal website/app testing.
+The project owner may retain and modify the editable sources and font files.
+
+Recipients authorized by the project owner may use this beta for private,
+non-commercial personal evaluation. This permission does not authorize resale,
+public font-file distribution, paid client use, public embedding in products,
+or sublicensing. Public commercial licensing will use a separate agreement
+after release validation and confirmation of the legal rights holder.
+
+Intended release model: free personal use; paid commercial use, with separate
+desktop, web, app and enterprise permissions. Those commercial terms and prices
+have not been finalized in this package.
+
+This is experimental software, supplied without a promise of typographic,
+language, compatibility or legal fitness. Preserve this notice with copies.
+
+Project label: A2Z.Tools. Legal owner identity and any copyright/trademark claims
+must be confirmed by the project owner. These notes do not certify exclusive
+rights or registration eligibility.

@@ -1,0 +1,9 @@
+Time to replace the placeholder images. Add pictures from the Assets folder using the following guidelines:
+
+Add hero.jpg to the hero banner.
+
+For each info page, the image files have been named accordingly. If the image name starts with "lodging1", it will be the first image on the Lodging page; if it starts with "lodging2", it will be the second. And so on, for each page other than the homepage. Then, once those images are in place, the cards on the homepage will have the corresponding "image1" for each of the info pages. The images can be their standard size on the info pages, but when featured in the cards, fit them inside the placeholder dimensions.
+
+Each image aside from the hero has attribution info in its file name as well. The website all these were gathered from is pexels.com. Then, the photographer's name or username is provided. Add a small 50% transparency MLA citation below each image using this information; access date is today, but don't worry about when the photo was taken unless that can be read from its metadata.
+
+
