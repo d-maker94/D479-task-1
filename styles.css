@@ -1,8 +1,3 @@
-/* ============================================================
-   Taniti — tropical island tourism site
-   Palette: green (nav), blue (hero), orange (headings)
-   ============================================================ */
-
 :root {
   --green-900: #0a4d3d;
   --green-700: #0e6b57;
@@ -23,8 +18,6 @@
   --font-body: "ZT Nature", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* ---------------- Fonts (A2Z Veyra) ---------------- */
-
 @font-face {
   font-family: "A2Z Veyra";
   src: url("fonts/a2z-veyra/A2ZVeyra-Medium.ttf") format("truetype");
@@ -41,7 +34,6 @@
   font-display: swap;
 }
 
-/* Body text face */
 @font-face {
   font-family: "ZT Nature";
   src: url("fonts/zt-nature/ZTNature-Regular.otf") format("opentype");
@@ -70,8 +62,6 @@ h1, h2, h3 {
   font-family: var(--font-display);
   font-weight: 700;
 }
-
-/* ---------------- Navigation ---------------- */
 
 .nav {
   background: var(--green-700);
@@ -136,8 +126,6 @@ h1, h2, h3 {
   border-bottom-color: var(--orange-500);
 }
 
-/* ---------------- Home hero ---------------- */
-
 .hero {
   background: linear-gradient(135deg, #0f5d78, #1e93b3);
   color: #fff;
@@ -200,7 +188,6 @@ h1, h2, h3 {
   box-shadow: 0 18px 38px rgba(0, 0, 0, .3);
 }
 
-/* ---------------- Page footer ---------------- */
 .site-foot {
   max-width: 1224px;
   margin: 0 auto;
@@ -213,8 +200,6 @@ h1, h2, h3 {
 }
 
 .site-foot p { margin: 0; }
-
-/* ---------------- Home intro (centered copy) ---------------- */
 
 .intro {
   max-width: 700px;
@@ -230,8 +215,6 @@ h1, h2, h3 {
 }
 
 .intro p:last-child { margin-bottom: 0; }
-
-/* ---------------- Home cards ---------------- */
 
 .cards {
   max-width: 1193px;
@@ -296,8 +279,6 @@ h1, h2, h3 {
 
 .card .more:hover { text-decoration: underline; }
 
-/* ---------------- Image captions (MLA attribution) ---------------- */
-
 figure.img-fig { margin: 0; }
 
 figure.img-fig figcaption {
@@ -308,12 +289,9 @@ figure.img-fig figcaption {
   opacity: .5;
 }
 
-/* Tall (second) photos show at their full vertical height instead of being cropped to the landscape frame */
 figure.img-fig--tall img {
   aspect-ratio: auto;
 }
-
-/* ---------------- Interior pages ---------------- */
 
 .page {
   max-width: 1056px;
@@ -369,11 +347,6 @@ figure.img-fig--tall img {
 
 .prose p:last-child { margin-bottom: 0; }
 
-/* ---------- Per-page type scale ----------
-   Lighter pages get larger body text. Scale, least → most content:
-   Dining +4pt · Lodging +3pt · Home intro +2pt ·
-   Transportation +1.5pt · Activities +1pt · FAQ unchanged.
-   (Base size is 1.05rem on the .prose / .intro paragraphs.) */
 .type-xl p { font-size: calc(1.05rem + 4pt); }
 .type-lg p { font-size: calc(1.05rem + 3pt); }
 .type-md p { font-size: calc(1.05rem + 2pt); }
@@ -393,8 +366,6 @@ figure.img-fig--tall img {
 .faq-list li:last-child { margin-bottom: 0; }
 
 .faq-list strong { color: var(--green-700); }
-
-/* ---------------- Responsive ---------------- */
 
 @media (max-width: 980px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
